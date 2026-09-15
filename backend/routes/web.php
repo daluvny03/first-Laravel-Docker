@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return 'Saya adalah Developer B';
+    return view('welcome');
 });
 
 Route::get('/navbar', function() {
